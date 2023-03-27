@@ -17,7 +17,7 @@ function Formulario({
 return (
   
     <form>
-        <h3>Formulario</h3>
+        <h3>Formulário</h3>
         
         
         <input type="text" className="form-control"  value={nome}  placeholder="---- NOME ----"   onChange={e=>setNome(e.target.value)} required/>
