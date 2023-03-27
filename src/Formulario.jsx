@@ -19,12 +19,12 @@ return (
     <form>
         <h3>Formulario</h3>
         
-        <label htmlFor="nome">Nome</label>
-        <input type="text" className="form-control"  value={nome}  placeholder="Digite seu nome"   onChange={e=>setNome(e.target.value)} required/>
-        <label htmlFor="idade">Idade</label>
-        <input type="number" className="form-control" value={idade}  placeholder="Digite sua idade"  onChange={e=>setIdade(e.target.value)} required/>
-        <label htmlFor="cidade">Cidade</label>
-        <input type="text" className="form-control" value={cidade} placeholder="Digite sua cidade" onChange={e=>setCidade(e.target.value)} required/> 
+        
+        <input type="text" className="form-control"  value={nome}  placeholder="----NOME----"   onChange={e=>setNome(e.target.value)} required/>
+        
+        <input type="number" className="form-control" value={idade}  placeholder="----IDADE----"  onChange={e=>setIdade(e.target.value)} min={0} required/>
+        
+        <input type="text" className="form-control" value={cidade} placeholder="----CIDADE----" onChange={e=>setCidade(e.target.value)} required/> 
 
         {
 //Operador ternário para acessar o props
