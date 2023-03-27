@@ -1,0 +1,43 @@
+.h2{
+  width: 50%;
+  margin: 3 auto;
+  
+}
+
+form {
+  
+  width: 50%;
+  margin: 5% auto;
+ 
+
+}
+
+.form{
+  width: 75%;
+  margin: 0 auto;
+  
+}
+
+form input{
+  margin-top: 10px;
+ 
+}
+
+form input[type="button"]{
+  margin-right: 10px;
+  padding: 5px;
+  
+  
+}
+.pesquisa{
+  width: 50%;
+  margin: 3% auto;
+}
+tr{
+  text-align: center;
+  border: 1px solid black;
+  
+}
+thead{
+  background-color: #888;
+}
