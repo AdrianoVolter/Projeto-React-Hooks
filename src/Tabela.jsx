@@ -10,7 +10,7 @@ function Tabela({vetor, selecionarUsuario}){
 //retornando o componente
     return (
         <div className="form">
-            <input type="text" onChange={e=>setTermo(e.target.value)} placeholder="Pesquise um nome:" className="form-control pesquisa"/>
+            <input type="text" onChange={e=>setTermo(e.target.value)} placeholder="Pesquise um nome :" className="form-control pesquisa"/>
             
             <table className="table table-striped">
                 <thead className="table">
